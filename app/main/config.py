@@ -18,6 +18,7 @@ class DevelopmentConfig(Config):
 
     # uncomment the line below to use postgres
     # SQLALCHEMY_DATABASE_URI = postgres_local_base
+    # SQLALCHEMY_DATABASE_URI=mysql+pymysql://root:123456@localhost/flask_test
 
 
 class ProductionConfig(Config):
